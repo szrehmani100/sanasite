@@ -1,16 +1,33 @@
-# React + Vite
+# sanasite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio website for Sana Rehmani — Technical Program Manager.
 
-Currently, two official plugins are available:
+**Live site:** [sanasite.vercel.app](https://sanasite.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## About
 
-## React Compiler
+A responsive, single-page portfolio built to showcase my experience as a TPM at SiriusXM and Amazon, key programs I've driven, technical skills, certifications, and language background.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Built with
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- CSS Modules
+- Deployed on Vercel
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Running locally
+
+```bash
+npm install
+npm run dev
+```
+
+## Sections
+
+- **Hero** — Intro, availability, and resume link
+- **About** — Background, language skills, and key stats
+- **Experience** — Timeline of roles at SiriusXM, Amazon, AWS, and T-Mobile
+- **Key Programs** — Highlight cards for major programs I've led
+- **Skills & Certifications** — Technical tools, languages, and certs
+- **Education** — Georgia State University, BBA in CIS
+- **Contact** — Email, LinkedIn, and resume
