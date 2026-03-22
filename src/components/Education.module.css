@@ -1,0 +1,89 @@
+.wrapper {
+  background: #fff;
+  border-top: 1px solid #e8e6e1;
+}
+
+.inner {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 4.5rem 2rem;
+}
+
+.title {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 1.75rem;
+  font-weight: 500;
+  color: #1a1a1a;
+  margin-bottom: 2rem;
+  position: relative;
+  display: inline-block;
+}
+
+.title::after {
+  content: '';
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 40px;
+  height: 3px;
+  border-radius: 2px;
+  background: #2a9d6e;
+}
+
+.school {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  background: #faf9f7;
+  border: 1px solid #e8e6e1;
+  border-radius: 10px;
+  padding: 1.5rem 1.75rem;
+}
+
+.school h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 0.15rem;
+}
+
+.college {
+  font-size: 0.92rem;
+  color: #666;
+  font-style: italic;
+}
+
+.right {
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.degree {
+  display: block;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 0.15rem;
+}
+
+.location {
+  font-size: 0.85rem;
+  color: #999;
+}
+
+@media (max-width: 768px) {
+  .inner {
+    padding: 3.5rem 1.25rem;
+  }
+
+  .school {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1.25rem;
+  }
+
+  .right {
+    text-align: left;
+  }
+}

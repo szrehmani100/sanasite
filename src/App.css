@@ -1,0 +1,60 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.section {
+  max-width: 860px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 4rem 2rem;
+}
+
+.sectionAlt {
+  background: #fff;
+}
+
+.sectionTitle {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 1.75rem;
+  font-weight: 500;
+  color: #1a1a1a;
+  margin-bottom: 2rem;
+  position: relative;
+  display: inline-block;
+}
+
+.sectionTitle::after {
+  content: '';
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 40px;
+  height: 3px;
+  border-radius: 2px;
+  background: #10a2f5;
+}
+
+.divider {
+  max-width: 860px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 2rem;
+}
+
+.divider hr {
+  border: none;
+  height: 1px;
+  background: #e8e6e1;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 3rem 1.25rem;
+  }
+
+  .sectionTitle {
+    font-size: 1.5rem;
+  }
+}
