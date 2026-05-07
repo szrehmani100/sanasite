@@ -14,11 +14,6 @@ const programs = [
     summary: 'Drove cross-team alignment across 5 engineering teams to deliver partner integration ahead of a revised timeline.',
   },
   {
-    title: 'Production Incident — Silent Kinesis Failure',
-    company: 'SiriusXM',
-    summary: 'Coordinated incident response across 3 teams and led migration to a Scala-based E2E testing framework.',
-  },
-  {
     title: 'Ring & Alexa CV/ML Data Programs',
     company: 'Amazon',
     summary: 'Led 30+ people to ship 15+ computer vision features on schedule, impacting 60M+ customers.',
