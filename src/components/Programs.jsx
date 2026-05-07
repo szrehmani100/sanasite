@@ -4,14 +4,9 @@ import styles from './Programs.module.css';
 
 const programs = [
   {
-    title: 'Synacor to In-House Auth Migration',
+    title: '3rd Party Platform Integrations',
     company: 'SiriusXM',
-    summary: 'Migrated 3rd-party auth to an in-house solution, saving $250k+/mo and removing 7k+ lines of legacy code.',
-  },
-  {
-    title: 'Roku Partner Integration',
-    company: 'SiriusXM',
-    summary: 'Drove cross-team alignment across 5 engineering teams to deliver partner integration ahead of a revised timeline.',
+    summary: 'Led OAuth-based integrations across Alexa, Roku, Google, and Sonos for the rebranded SXM app, impacting 34M+ subscribers globally.',
   },
   {
     title: 'Ring & Alexa CV/ML Data Programs',
