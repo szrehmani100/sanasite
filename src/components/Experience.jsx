@@ -4,6 +4,14 @@ import styles from './Experience.module.css';
 
 const experiences = [
   {
+    company: 'Between Roles',
+    role: '',
+    period: 'Sep 2025 – Present',
+    summary:
+      'Preparing for next opportunity — refreshing core technical foundations and exploring TPM roles.',
+    accomplishments: [],
+  },
+  {
     company: 'SiriusXM',
     role: 'Technical Program Manager',
     period: 'Mar 2023 – Sep 2025',
@@ -96,16 +104,18 @@ function Experience() {
                 <div className={styles.header}>
                   <div>
                     <h3 className={styles.company}>{exp.company}</h3>
-                    <p className={styles.role}>{exp.role}</p>
+                    {exp.role && <p className={styles.role}>{exp.role}</p>}
                   </div>
                   <span className={styles.period}>{exp.period}</span>
                 </div>
                 <p className={styles.summary}>{exp.summary}</p>
-                <ul className={styles.list}>
-                  {exp.accomplishments.map((item, j) => (
-                    <li key={j}>{item}</li>
-                  ))}
-                </ul>
+                {exp.accomplishments.length > 0 && (
+                  <ul className={styles.list}>
+                    {exp.accomplishments.map((item, j) => (
+                      <li key={j}>{item}</li>
+                    ))}
+                  </ul>
+                )}
               </div>
             </div>
           ))}
